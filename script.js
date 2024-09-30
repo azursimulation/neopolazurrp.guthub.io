@@ -47,7 +47,7 @@ const pdfFileInput = document.getElementById('pdfFile');
 const responseMessage = document.getElementById('responseMessage');
 
 // URL du webhook Discord
-const webhookURL = 'https://discord.com/api/webhooks/1283832083935920128/1CLpl0hOLbMp2Let40gRV2jlSotuqtqTBmwXHH-YKZlG4KTlrpblXI582-8tsUMtay6u';
+const webhookURL = 'https://discord.com/api/webhooks/1290421890522943498/9Qm4mnOnrHSS9tuUhAvlvg9xf3FcTO5YfjZhYV3D1TZlLn_0v_8kgRogEh7wkkqBPIhF';
 
 // Événement pour le formulaire de soumission
 form.addEventListener('submit', async function (e) {

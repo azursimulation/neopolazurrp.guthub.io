@@ -17,7 +17,7 @@ document.getElementById('demandeFormationForm').addEventListener('submit', funct
     };
 
     // URL du webhook Discord
-    const webhookURL = 'https://discord.com/api/webhooks/1285618565646516277/_nOLAQSetfD0YGjbDvzAIAVOWE9K6tRBz2ytQ7buNUpzcOviUN_lYTsot3dzTdy0fMkT';
+    const webhookURL = 'https://discord.com/api/webhooks/1290421890522943498/9Qm4mnOnrHSS9tuUhAvlvg9xf3FcTO5YfjZhYV3D1TZlLn_0v_8kgRogEh7wkkqBPIhF';
 
     // Envoi de la requête POST au webhook Discord
     fetch(webhookURL, {

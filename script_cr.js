@@ -2,7 +2,7 @@
 const compteRenduForm = document.getElementById('compteRenduForm');
 
 // URL du webhook Discord
-const webhookURL = 'https://discord.com/api/webhooks/1285293926609195018/oJ4kbR2U1sbOrhRACxd6b65Os0Gm_VM2se4sY3BF-qSdnwLETZufz0lo99n7bIadVrNw';
+const webhookURL = 'https://discord.com/api/webhooks/1290421839197376655/nOtXFHKY5MXVJNs7wNx4dZzOL-SnI1ewifLGr793WPVWKGNxGJcqPj6k0SVGHxTPedpf';
 
 // Événement pour le formulaire de soumission
 compteRenduForm.addEventListener('submit', async function (e) {

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compte Rendu - Police Nationale - NEOPOL</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Marianne:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="icon" href="img/logoazur.png" type="image/x-icon">
+</head>
+
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <ul>
+                <li><a href="index.html">Revenir à l'accueil</a></li>
+            </ul>
+        </div>
+
+        <div class="main-content">
+            <div class="logo-container">
+                <img src="img/logopn.png" alt="Logo Police Nationale">
+            </div>
+
+            <div class="logo-top-left">
+                <img src="img/logoazur.png" alt="Logo AzurSim">
+            </div>
+
+            <div class="hero">
+                <h1>Compte Rendu - Police Nationale - NEOPOL</h1>
+            </div>
+
+            <div class="report-container">
+                <form id="compteRenduForm">
+                    <textarea id="compteRenduText" name="compteRenduText" rows="15"
+                        placeholder="J'ai l'honneur de vous rendre compte..."></textarea>
+                    <div class="form-footer">
+                        <label for="date">Date :</label>
+                        <input type="date" id="date" name="date" required>
+                        <label for="signature">Signature :</label>
+                        <input type="text" id="signature" name="signature" placeholder="Votre nom" required>
+                    </div>
+                    <button type="submit" class="btn">Envoyer le compte rendu</button>
+                </form>
+                <div class="bottom-bar">
+                    SITE WEB DEDIÉ A AZUR SIMULATION FIVEM / SITE 100% FICTIF ET N'ÉTANT QU'UN OUTIL RÉSERVER AU SERVEUR
+                    ROLEPLAY
+                </div>
+            </div>
+            <script src="script_cr.js"></script>
+</body>
+
+</html>

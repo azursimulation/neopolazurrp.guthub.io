@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demande de Formation - Police Nationale - NEOPOL</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Marianne:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="img/logoazur.png" type="image/x-icon">
+</head>
+
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <ul>
+                <li><a href="index.html">Revenir à l'accueil</a></li>
+                <!-- Ajoutez d'autres liens ici si nécessaire -->
+            </ul>
+        </div>
+
+        <div class="main-content">
+            <div class="logo-container">
+                <img src="img/logopn.png" alt="Logo Police Nationale">
+            </div>
+
+            <div class="logo-top-left">
+                <img src="img/logoazur.png" alt="Logo AzurSim">
+            </div>
+
+            <div class="hero">
+                <h1>Demande de Formation</h1>
+            </div>
+
+            <div class="report-container">
+                <form id="demandeFormationForm">
+                    <label for="formation">Choix de la formation :</label>
+                    <select id="formation" name="formation" required>
+                        <option value="" disabled selected>Sélectionner une formation</option>
+                        <option value="LBD">LBD</option>
+                        <option value="HK-UMP-9">HK-UMP-9</option>
+                        <option value="HK-G36-C">HK-G36-C</option>
+                        <option value="GMD">GMD</option>
+                        <option value="GLI-F4">GLI-F4</option>
+                    </select>
+
+                    <label for="grade">Grade :</label>
+                    <select id="grade" name="grade" required>
+                        <option value="" disabled selected>Sélectionner un grade</option>
+                        <option value="P-A">P-A</option>
+                        <option value="E-GPX">E-GPX</option>
+                        <option value="GPX">GPX</option>
+                        <option value="BRIGADIER">BRIGADIER</option>
+                        <option value="BRIGADIER-CHEF">BRIGADIER-CHEF</option>
+                        <option value="MAJOR">MAJOR</option>
+                        <option value="LIEUTENANT">LIEUTENANT</option>
+                        <option value="CAPITAINE">CAPITAINE</option>
+                    </select>
+
+                    <label for="prenomNom">Prénom Nom RP :</label>
+                    <input type="text" id="prenomNom" name="prenomNom" placeholder="Prénom Nom RP" required>
+
+                    <label for="affectation">Affectation :</label>
+                    <input type="text" id="affectation" name="affectation" value="CIAT Cannes" readonly>
+
+                    <button type="submit" class="btn">Soumettre la demande</button>
+                </form>
+
+                <div class="bottom-bar">
+                    SITE WEB DEDIÉ A AZUR SIMULATION FIVEM / SITE 100% FICTIF ET N'ÉTANT QU'UN OUTIL RÉSERVER AU SERVEUR ROLEPLAY
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script_demande.js"></script>
+</body>
+
+</html>
